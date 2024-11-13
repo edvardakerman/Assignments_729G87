@@ -29,13 +29,13 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px;
   background-color: white;
 }
 
@@ -44,9 +44,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   background-color: white;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
+  line-height: 1.2;
 }
 
 .content h2 {
@@ -58,7 +59,7 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   background-color: black;
 }
 

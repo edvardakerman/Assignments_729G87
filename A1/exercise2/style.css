@@ -21,12 +21,12 @@ html {
     display: flex;
     align-items: flex-end;
     width: 23vw;
-    height: 19vh;
+    height: 18vh;
     margin: 0 auto;
     background-image: url(images/header.jpeg);
-    background-position: 50% 80%;
-    background-size: 450px;
-    font-size: 35px;
+    background-position: 20% 80%;
+    background-size: cover;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: white;
@@ -36,10 +36,10 @@ html {
   #header > h1 {
     margin: 10px;
     padding: 5px;
+    animation: rainbow 1s infinite;
   }
   
-  #post1 {
-  
+  .image-post {
     width: 17vw;
     height: 36vh;
     margin: 25px auto;
@@ -49,37 +49,34 @@ html {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
-  #post2 {
-  
-    width: 17vw;
-    height: 36vh;
-    margin: 20px auto;
-    border: 1px solid grey;
-    border-radius: 5px;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
   .post-description {
-  
-    margin: 0px 20px;
-    font-size: 8px;
+    margin: 0px 12px;
+    font-size: 7px;
+    padding-bottom: 10px;
   }
   
   img {
-  
-    max-width: 88%;
+    max-width: 90%;
     max-height: 50%;
-    padding: 5px;
     margin: 10px auto;
     display: block;
   }
   
   .post-title {
-      margin-top: 15px;
-      margin-left: 20px;
-      margin-bottom: 15px;
-      font-size: medium;
+      margin-top: 10px;
+      margin-left: 12px;
+      margin-bottom: 12px;
+      font-size: 10px;
       font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @keyframes rainbow {
+    0% { color: red; }
+    16% { color: orange; }
+    33% { color: yellow; }
+    50% { color: green; }
+    66% { color: blue; }
+    83% { color: indigo; }
+    100% { color: violet; }
   }
