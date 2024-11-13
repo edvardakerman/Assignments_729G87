@@ -2,23 +2,19 @@ body {
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
 }
 .wrapper {
   display: flex;
-  flex-flow: wrap row;
+  flex-flow: wrap;
   background-color: lightblue;
   justify-content: center;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
-  margin: 0 auto;
 }
 
 .card {
   position: relative;
-  width: 15vw;
+  width: 14vw;
   height: 40vh;
   margin: 30px 10px;
   border-radius: 15px;
@@ -27,14 +23,12 @@ body {
   display: flex;
 }
 
-/* Card A*/
 .card.a {
   align-items: flex-end;
   justify-content: flex-start;
   position: relative;
 }
 
-/*Card B*/
 .card.b {
   flex-flow: nowrap column-reverse;
   align-items: flex-end;
@@ -45,13 +39,11 @@ body {
   left: 20px;
 }
 
-/*Card C*/
 .card.c > .box {
   position: relative;
   left: -20px;
 }
 
-/*Card D*/
 .card.d {
   flex-flow: column;
   justify-content: space-around;
@@ -67,7 +59,6 @@ body {
   margin: 0;
 }
 
-/*Card E*/
 .card.e > .box {
   margin: 0;
   position: relative;
