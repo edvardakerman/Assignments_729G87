@@ -56,11 +56,6 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding: 30px;
+  padding: 50px;
   background-color: black;
-}
-
-footer p {
-  color: white;
-  padding: 20px;
 }
