@@ -1,0 +1,64 @@
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  margin: 0 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 10px 0;
+}
+
+textarea {
+  min-height: 100px;
+  width: 80%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.controls > * {
+  margin-right: 10px;
+}
+
+.dropdown {
+  padding: 5px;
+}
+
+.redStyle {
+  color: red;
+}
+
+.tinyStyle {
+  font-size: x-small;
+}
+
+.rainbowStyle {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
