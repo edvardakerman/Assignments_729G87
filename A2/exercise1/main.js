@@ -12,7 +12,6 @@ for (let i = 1; i <= 8; i++) {
     });
 };
 
-
 document.addEventListener("DOMContentLoaded", () => {
 const image = document.getElementById("image");
 const Imagetitle = document.getElementById("image-title");
