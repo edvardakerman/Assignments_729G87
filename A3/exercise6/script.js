@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btns = document.querySelectorAll('button');
     const boxes = document.querySelectorAll('.box');
 
-    const startAnimation = (e, scaleV, ) => {
+    const startAnimation = (e, scaleV) => {
         anime({
             targets: e,
             scale: {
