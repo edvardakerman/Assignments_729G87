@@ -33,13 +33,12 @@ nextButton.addEventListener("click", function() {
 
 prevButton.addEventListener("click", function() {
     currentImageIndex--;
-    if (currentImageIndex <= 0) {
+    if (currentImageIndex < 0) {
         currentImageIndex = images.length - 1;
     }
     showImage();
 });
 
-// Add thumbnails
 thumbnails.forEach((thumbnail, index) => {
     const img = document.createElement("img");
     img.src = thumbnail.path;
