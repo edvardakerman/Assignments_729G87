@@ -39,6 +39,7 @@ prevButton.addEventListener("click", function() {
     showImage();
 });
 
+// Add thumbnails
 thumbnails.forEach((thumbnail, index) => {
     const img = document.createElement("img");
     img.src = thumbnail.path;
